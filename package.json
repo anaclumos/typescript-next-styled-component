@@ -9,7 +9,9 @@
   "scripts": {
     "dev": "NODE_ENV=development && next dev",
     "build": "NODE_ENV=production && next build",
-    "start": "NODE_ENV=production && next start"
+    "start": "NODE_ENV=production && next start",
+    "warp": "NODE_ENV=development && yarn open-browser && next dev",
+    "open-browser": "open http://localhost:3000"
   },
   "dependencies": {
     "next": "^10.0.7",
